@@ -258,7 +258,10 @@ For each outlier track, e.g. in `nest_fan_outliers`:
 * popup `outlier_track_comment`.
 
 For each know light source, e.g. in `nest_lightsources`:
-* A black point with a bright yellow (transparent) circle around it. Sizes should be configurable.
+* A bright yellow line starting at the nest `encounter_longitude`, `encounter_latitude`
+* direction `bearing_light_degrees`
+* label `light_source_type`
+* popup `light_source_description`
 
 ## Requirements
 * Leaflet
